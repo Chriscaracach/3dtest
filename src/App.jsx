@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { useEffect } from "react";
 
 function App() {
-  const imageUrl = "src/assets/logo_gs_guido_buffo.png";
+  const imageUrl = "https://i.imgur.com/8k1f1jI.jpg";
   const canvasRef = useRef(null);
 
   useEffect(() => {
